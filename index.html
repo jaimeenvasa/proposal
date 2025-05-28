@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Marry Me?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="title">Our Love Story</h1>
+                <p class="subtitle">A journey of love and memories</p>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </header>
+
+        <section class="gallery">
+            <h2>Our Memories</h2>
+            <div class="gallery-container">
+                <!-- Gallery images will be added here -->
+            </div>
+        </section>
+
+        <section class="proposal">
+            <div class="proposal-content">
+                <div class="ring-box">
+                    <div class="ring-container">
+                        <img src="images/ring.jpg" alt="Diamond Ring" class="ring-image">
+                    </div>
+                </div>
+                <h2>Will You Marry Me?</h2>
+                <p class="proposal-message">Every moment with you has been magical. I want to spend the rest of my life creating beautiful memories with you.</p>
+                <div class="buttons">
+                    <button class="yes-btn">
+                        <span class="btn-text">Yes! <i class="fas fa-heart"></i></span>
+                        <span class="btn-particles"></span>
+                    </button>
+                    <button class="no-btn">
+                        <span class="btn-text">No <i class="fas fa-times"></i></span>
+                        <span class="btn-particles"></span>
+                    </button>
+                </div>
+                <div class="floating-hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="message">
+            <h2>My Promise to You</h2>
+            <p class="love-message">
+                Every single moment with you feels like a scene straight out of a fairytale.
+                You are my sunshine, my heart's home, and the reason I smile for no reason.
+                I promise to love you beyond words, cheer you on like your biggest fan,
+                and turn even the ordinary days into magical memories.
+                Will you make me the luckiest person alive and be my forever? 💍💖  
+            </p>
+            <div class="floating-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </section>
+    </div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="playPauseBtn">
+            <i class="fas fa-play"></i>
+        </button>
+        <div class="song-info">
+            <span class="song-title">Our Song</span>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="your-song.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html> 
